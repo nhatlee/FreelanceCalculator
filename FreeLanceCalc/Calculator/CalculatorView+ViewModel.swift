@@ -13,7 +13,7 @@ extension CalculatorView {
     //If you need the fraction digits and preserve its precision digits you would need to use Swift Decimal type and initialize it with a String
     typealias TimeType = Float
     final class ViewModel: ObservableObject {
-        @Published var jsonFileName: String = "Dec"
+        @Published var jsonFileName: String = "Jan2025"
         
         @Published var intergerSum: TimeType = 0
         @Published var decimalSum: TimeType = 0
